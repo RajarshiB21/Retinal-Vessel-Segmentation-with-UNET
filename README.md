@@ -1,2 +1,4 @@
 # Retinal-Vessel-Segmentation-with-UNET
 Segmentation of Retinal Vessels using the UNET architecture
+
+In this project we have firstly taken a small dataset of Retina images and used data augmentation on those images to improve the training. We have then referred to the UNET research paper and created the neural network from scratch using Pytorch. After using various performance metrics we have determined the accuracy of the model on the given dataset. Finally the model was made to make some predictions on Retina images which were compared to the original masks. The results were stored in a separate folder for further research and analysis. This project helps us understand the importance of Data Augmentation for a segmentation problem using UNET. It also shows the implementation of UNET from scratch with reference to its research paper. Finally, it helps present the significance of UNET when it comes to segmentation problems in the medical field.
